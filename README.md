@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://designrevision.com/downloads/shards-dashboard-lite/">
-<img src="preview.png" width="450" />
+<img src="preview.png" width="600" />
 </a>
 </p>
 
@@ -8,8 +8,6 @@
 <p align="center">
 A modern & free Bootstrap 4 admin dashboard template pack.
 </p>
-
-<br />
 
 <p align="center">
   <a href="#">
@@ -19,8 +17,6 @@ A modern & free Bootstrap 4 admin dashboard template pack.
     <img src="https://img.shields.io/twitter/follow/DesignRevision.svg?style=social&label=Follow" />
   </a>
 </p>
-
-<br />
 
 <p align="center">
   <a href="https://designrevision.com/demo/shards-dashboard-lite/">Live Demo</a> •
