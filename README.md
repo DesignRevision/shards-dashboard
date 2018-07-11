@@ -1,8 +1,10 @@
 <p align="center">
-<img src="preview.png" width="350" />
+<a href="https://designrevision.com/downloads/shards-dashboard-lite/">
+<img src="preview.png" width="450" />
+</a>
 </p>
 
-<h1 align="center">Shards Dashboard</h1>
+<h1 align="center" style="border-bottom: none !important; margin-bottom: 5px !important;"><a href="https://designrevision.com/downloads/shards-dashboard-lite/">Shards Dashboard UI Kit</a></h1>
 <p align="center">
 A modern & free Bootstrap 4 admin dashboard template pack.
 </p>
