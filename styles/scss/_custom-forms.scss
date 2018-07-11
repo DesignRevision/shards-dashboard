@@ -1,0 +1,39 @@
+// Custom forms adjustments
+
+.custom-select-sm {
+  font-size: $font-size-sm;
+  border-radius: $btn-border-radius;
+}
+
+.custom-select-lg {
+  border-radius: $btn-border-radius;
+}
+
+// Adjust the custom control line height.
+.custom-control {
+  line-height: 1.5rem;
+}
+
+
+// Adjust custom controls disabled states.
+
+// Custom checkboxes
+.custom-checkbox .custom-control-input:disabled:checked ~ .custom-control-label {
+  &::after {
+    border-color: $custom-control-disabled-color;
+  }
+}
+
+// Custom radios
+.custom-radio .custom-control-input:disabled:checked ~ .custom-control-label {
+  &::after {
+    background: $custom-control-disabled-color;
+  }
+}
+
+// Custom toggle
+.custom-toggle .custom-control-input:checked:disabled ~ .custom-control-label {
+  &::after {
+    background: $custom-control-disabled-color;
+  }
+}

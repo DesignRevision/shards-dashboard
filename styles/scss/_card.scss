@@ -1,0 +1,23 @@
+// Card adjustments
+
+// Block handles
+.card-header {
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: $card-headings-font-weight;
+  }
+}
+
+// Small "Full Report" cards element adjustments
+.card .view-report {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: $card-view-report-font-size;
+
+  a {
+    color: $card-view-report-link-color;
+
+    &:hover {
+      color: $card-view-report-link-color-hover;
+    }
+  }
+}

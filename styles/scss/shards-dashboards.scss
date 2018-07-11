@@ -1,0 +1,56 @@
+/*
+ * Shards Dashboard Lite UI Kit v1.0.0
+ * Project URL: https://designrevision.com/downloads/shards-dashboard-lite
+ * Based on: Shards UI Kit v2.0.3 (https://designrevision.com/downloads/shards)
+ * Based on: Bootstrap v4.1.1 (https://getbootstrap.com)
+ * Copyright 2017-* DesignRevision (https://designrevision.com)
+ * Copyright 2017-* Catalin Vasile (contact@catalin.me)
+ * License: MIT
+ */
+
+// Shards variables overrides.
+@import "overrides";
+
+// Base Shards UI Kit
+@import "../../node_modules/shards-ui/src/scss/shards";
+
+/* Shards Dashboards Lite Styles */
+
+// Core
+@import "variables";
+
+// Components
+@import "reboot";
+@import "buttons";
+@import "button-group";
+@import "navbar";
+@import "badge";
+@import "alert";
+@import "input-group";
+@import "custom-forms";
+@import "custom-sliders";
+@import "images";
+@import "icons";
+@import "dropdown";
+@import "card";
+@import "utilities";
+
+// Blocks
+@import "blocks/main-navbar";
+@import "blocks/main-sidebar";
+@import "blocks/main-content";
+@import "blocks/main-footer";
+@import "blocks/page-header";
+
+// Templates
+@import "templates/common"; // Required common styles for all pages.
+@import "templates/blog-overview";
+@import "templates/blog-add-new-post";
+
+// Plugins
+@import "plugins/quill";
+
+// Components
+@import "components/card-post";
+@import "components/error";
+

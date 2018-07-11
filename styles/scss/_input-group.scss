@@ -1,0 +1,32 @@
+// Input groups adjustments
+
+// Set a min width for the input groups.
+// Without this some components might break (datepickers).
+.input-group {
+  min-width: 7.5rem;
+}
+
+// Adjust the input group font size.
+.input-group-text {
+  font-size: $input-font-size;
+}
+
+// Adjust the seamless input group - input's padding.
+.input-group.input-group-seamless > .form-control:not(:first-child),
+.input-group.input-group-seamless > .custom-select:not(:first-child) {
+  padding-left: 1.875rem;
+}
+
+// Adjust the input group icons.
+.input-group-text i {
+  transform: scale(1.1);
+
+  &.fa {
+    font-size: 0.75rem;
+  }
+
+  &.material-icons {
+    top: 0;
+    font-size: 0.8125rem;
+  }
+}

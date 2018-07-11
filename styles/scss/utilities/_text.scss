@@ -1,0 +1,19 @@
+// Text utilities adjustments
+
+// Create text color variants for the new grays
+@each $color, $value in $new-grays {
+  @include text-emphasis-variant(".text-#{$color}", $value);
+}
+
+// Create text color variants for the accent color
+@include text-emphasis-variant(".text-accent", $accent-color);
+
+// Light text adjustments
+.text-light {
+  color: $text-light-color !important;
+}
+
+// Semibold text
+.text-semibold {
+  font-weight: $text-semibold-font-weight;
+}

@@ -1,0 +1,58 @@
+// Quill Adjustments
+
+// Container
+// Note: Using html for specificity here
+html {
+  .ql-container,
+  .ql-toolbar {
+    &.ql-snow {
+      border-color: $border-color;
+    }
+  }
+
+  .ql-container {
+    border-bottom-left-radius: $btn-border-radius;
+    border-bottom-right-radius: $btn-border-radius;
+  }
+
+  .ql-toolbar {
+    border-top-left-radius: $btn-border-radius;
+    border-top-right-radius: $btn-border-radius;
+    color: $headings-color !important;
+
+    .ql-fill,
+    .ql-stroke.ql-fill {
+      fill: $reagent-gray;
+    }
+
+    .ql-stroke {
+      stroke: $reagent-gray;
+    }
+
+    button:hover,
+    button:active,
+    button:focus {
+      .ql-fill,
+      .ql-stroke.ql-fill {
+        fill: $accent-color !important;
+      }
+
+      .ql-stroke {
+        stroke: $accent-color !important;
+      }
+    }
+
+    .ql-picker {
+      .ql-picker-item:hover {
+        color: $accent-color !important;
+      }
+
+      .ql-picker-options {
+        padding: 6px 20px;
+        border: 0 !important;
+        box-shadow: $card-box-shadow;
+        border-radius: $border-radius;
+      }
+    }
+  }
+}

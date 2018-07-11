@@ -1,0 +1,31 @@
+// Custom Sliders Adjustments
+
+// Accent color slider
+.slider-accent .noUi-connect {
+  background: $slider-accent-background;
+}
+
+.noUi-pips {
+  font-size: $slider-pips-font-size;
+}
+
+.noUi-tooltip {
+  font-size: $slider-tooltip-font-size;
+  padding: $slider-tooltip-padding;
+}
+
+.noUi-horizontal {
+  .noUi-tooltip {
+    bottom: $slider-horizontal-tooltip-bottom;
+  }
+
+  .noUi-handle {
+    left: $slider-horizontal-handle-left;
+    top: $slider-horizontal-handle-top;
+  }
+}
+
+.noUi-handle {
+  width: $slider-handle-width;
+  height: $slider-handle-height;
+}

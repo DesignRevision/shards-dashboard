@@ -1,0 +1,13 @@
+// Badge Adjustments
+
+// Accent color badge variations
+.badge-accent {
+  @include badge-variant($accent-color);
+}
+
+// Accent color outline badge variation
+.badge-outline-accent {
+  background: none;
+  border: 1px solid $accent-color;
+  color: $accent-color;
+}

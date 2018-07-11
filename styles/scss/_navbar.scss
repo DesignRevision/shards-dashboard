@@ -1,0 +1,31 @@
+// General navbar adjustments
+
+.navbar-light .navbar-brand {
+  font-weight: $navbar-brand-font-weight;
+  color: $navbar-brand-color;
+}
+
+.nav-link {
+    font-size: $nav-link-font-size;
+    font-weight: $nav-link-font-weight;
+
+    &-icon {
+      color: $nav-link-icon-color;
+
+      @include hover-focus {
+        color: darken($nav-link-icon-color, 10);
+      }
+
+      &__wrapper {
+        position: relative;
+      }
+
+      i {
+        font-size: $nav-link-icon-font-size;
+
+        &.material-icons {
+          font-size: $nav-link-material-icons-font-size;
+        }
+      }
+    }
+  }

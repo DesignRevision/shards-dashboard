@@ -1,0 +1,16 @@
+// Alert Adjustments
+
+// Alternate style for the accent color
+.alert-accent {
+  color: lighten($accent-color, 48%);
+  background-color: $accent-color;
+
+  .alert-link {
+    color: lighten($accent-color, 48%);
+  }
+}
+
+.alert-dismissible .close {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}

@@ -1,0 +1,66 @@
+// Buttons Adjustments
+
+// White and black button adjustments specific to Shards Dashboard.
+// If you want to use the default Shards buttons just comment the
+// styles below.
+
+.btn-white,
+.btn-black {
+  // Set the defaults to use the accent color.
+  &:not([disabled]):not(.disabled):active,
+  &:not([disabled]):not(.disabled).active {
+    box-shadow: none !important;
+    background-color: $accent-color;
+    border-color: $accent-color;
+    color: $white;
+
+    + .btn {
+      border-left: 1px solid $accent-color;
+    }
+  }
+
+  &:hover {
+    background: $white;
+    border-color: $white;
+    box-shadow: 0px 0.125rem 0.625rem rgba($reagent-gray, .2),
+                0 0.0625rem 0.125rem rgba($reagent-gray, .3);
+  }
+}
+
+// White button accent color modifiers.
+// Selector specificity to override existing active state.
+.btn.btn-white {
+  border: 1px solid $border-color;
+  color: $fiord-blue;
+
+  @mixin btn-active-modifier($color, $value) {
+    &:not([disabled]):not(.disabled).active-#{$color} {
+      &.active,
+      &:active {
+        background-color: $value;
+        border-color: $value;
+        color: color-yiq($value);
+
+        & + .btn {
+          border-left: 1px solid red;
+        }
+      }
+    }
+  }
+
+  // Existent theme colors
+  @each $color, $value in $theme-colors {
+    @include btn-active-modifier($color, $value);
+  }
+}
+
+
+// Button variation for the accent color.
+.btn-accent {
+  @include button-variant($accent-color);
+}
+
+// Outline button variation for the accent color.
+.btn-outline-accent {
+  @include button-outline-variant($accent-color);
+}

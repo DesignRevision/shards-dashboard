@@ -1,0 +1,62 @@
+// Reboot / Shards Improvements
+
+// HTML
+html {
+  font-size: 16px;
+  font-weight: 500;
+
+  // Increase the font size on large displays.
+  @include media-breakpoint-up(xl) {
+    font-size: 18px;
+  }
+
+  // Adjust font sizes for 144dpi+ (including retina).
+  @media (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+
+// Body
+body {
+  background: $body-background;
+  font-size: 15px;
+  font-weight: 500;
+
+  @media (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+    font-size: 13px;
+    font-weight: 400;
+  }
+}
+
+
+// Links
+a {
+  color: $accent-color;
+
+  @include hover {
+    color: darken($accent-color, 15%);
+  }
+}
+
+
+// Labels
+label {
+  font-weight: 400;
+}
+
+
+// Datepicker adjustments
+.datepicker {
+  font-size: .75rem;
+  padding: 0.625rem;
+
+  table tr td,
+  table tr th {
+    width: 1.875rem;
+    height: 1.875rem;
+  }
+}
