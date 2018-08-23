@@ -5,11 +5,6 @@ html {
   font-size: 16px;
   font-weight: 500;
 
-  // Increase the font size on large displays.
-  @include media-breakpoint-up(xl) {
-    font-size: 18px;
-  }
-
   // Adjust font sizes for 144dpi+ (including retina).
   @media (-webkit-min-device-pixel-ratio: 1.5),
   (min-resolution: 144dpi) {

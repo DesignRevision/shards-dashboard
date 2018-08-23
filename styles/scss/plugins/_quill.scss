@@ -15,6 +15,10 @@ html {
     border-bottom-right-radius: $btn-border-radius;
   }
 
+  .ql-editor strong {
+    font-weight: 600;
+  }
+
   .ql-toolbar {
     border-top-left-radius: $btn-border-radius;
     border-top-right-radius: $btn-border-radius;
