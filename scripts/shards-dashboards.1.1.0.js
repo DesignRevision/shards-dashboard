@@ -1,5 +1,5 @@
 /*!
-* Shards Dashboards v1.0.0
+* Shards Dashboards v1.1.0
 * Copyright 2011-2018 DesignRevision
 * SEE LICENSE FILE
 */
@@ -78,4 +78,4 @@ $(document).ready(function () {
 
 })));
 
-//# sourceMappingURL=shards-dashboards.1.0.0.js.map
+//# sourceMappingURL=shards-dashboards.1.1.0.js.map
