@@ -15,7 +15,8 @@ html {
     border-bottom-right-radius: $btn-border-radius;
   }
 
-  .ql-editor strong {
+ .ql-editor strong,
+ .ql-editor b {
     font-weight: 600;
   }
 

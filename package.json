@@ -15,6 +15,6 @@
     "gulp-clean-css": "^3.9.4",
     "gulp-rename": "^1.3.0",
     "gulp-sass": "^4.0.1",
-    "shards-ui": "^2.0.3"
+    "shards-ui": "^2.1.0"
   }
 }
